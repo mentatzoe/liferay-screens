@@ -41,6 +41,7 @@ public interface WebContentDisplayListener extends BaseCacheListener {
 	 *
 	 * @param result
 	 * @param event
+	 * @return true if you want to process the result, false otherwise.
 	 */
-	void onWebContentClicked(WebView.HitTestResult result, MotionEvent event);
+	boolean onWebContentClicked(WebView.HitTestResult result, MotionEvent event);
 }
