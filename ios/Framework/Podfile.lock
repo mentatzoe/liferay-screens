@@ -97,7 +97,7 @@ PODS:
     - YapDatabase/SQLCipher/Core
 
 DEPENDENCIES:
-  - Cosmos (= 0.0.1)
+  - Cosmos (~> 8.0)
   - CryptoSwift (~> 0.5.2)
   - DTPickerPresenter (~> 0.2.0)
   - KeychainAccess (~> 2.4)
